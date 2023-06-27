@@ -1,0 +1,155 @@
+*{
+    box-sizing: border-box;
+}
+body {
+    font-family: calibri;
+    font-style: italic;
+    color: white !important;
+    background-color: white !important;
+}
+div{
+    padding: 1%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.center{
+    display: flex;
+    justify-content: center;
+}
+.nilpad{padding: 0;}
+.Bborderwhite{border-bottom:1px solid white;}
+.headermain{
+    display: flex;
+    background-color: #04aaec;
+    justify-content: center;
+    height: 120px;
+    align-items: center;
+}
+.bannerhold{
+    display: flex;   
+    flex-wrap: wrap;
+    width: 100%;
+    height: 160px; 
+    justify-content: space-between;
+    padding:0%;
+}
+.banner{
+    display: flex;
+    background-color: #02729f;   
+    height: 160px; 
+    align-items: center;
+    justify-content: space-around;
+    padding: 0;
+    margin:0 -20px 0 0;
+    border-right: 20px solid white;
+    border-bottom: 20px solid white;
+    
+}
+.shiftcenter{
+    margin-left: auto;
+    margin-right: auto;
+    overflow: hidden;
+}
+.table{
+    display: flex;
+    flex-direction: column;
+    background-color: #026288;
+    height: 300px;
+}
+.t1 {
+    display: flex;
+    text-decoration: none;
+    width: 100%;
+    color: white;
+    height: inherit;     
+      
+}
+.t2{
+    background-color: #013447;
+    margin: -1% 0 0 -2%;
+    height: 35px;
+}
+
+.lheader{
+    background-color: #013447;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 27px;
+}
+.lbox {
+    display: flex;
+    height: 580px;
+    background-color:#d6d6da;
+}
+.mheader{
+    background-color: #013447;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height:27px;
+}
+.mbox{
+    background-color: #d6d6da;
+    display: flex;
+    height: 900px;
+}
+.rhold{
+    display: flex;
+    flex-direction: column;
+    padding: .75% 1% 1% 1%;
+}
+.rheader {
+    background-color: #013447;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    height:27px;
+}
+.rbox {
+    background-color: #d6d6da;
+    display: flex;
+    height: 252.5px;
+    flex-wrap: wrap;
+}
+footer {
+    background-color: #026288;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    height: 150px;
+}
+@media only screen and (max-width: 992px) {
+    .rhold{
+        display: flex;
+        flex-wrap: nowrap;
+        flex-direction: row;
+        padding: .75%; 
+    }
+    
+}
+@media only screen and (max-width: 768px) {
+    .rhold{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .bannerhold{
+        height: 320px;  
+    }
+    .t2{
+        height: 31px;
+    }
+}
+@media only screen and (max-width: 576px) {
+    .rhold{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .banner{
+        border-right: 0 solid white;
+    }
+    .bannerhold{
+        height: 640px;  
+    }
+}

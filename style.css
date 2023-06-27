@@ -1,0 +1,80 @@
+
+body {
+    font-family: calibri;
+    font-style: italic;
+    color: white;
+}
+.myHeader {
+    background-color: #04aaec;
+    padding-bottom:8%;
+    padding-top:8%;
+    text-align: center;
+    width: 98%;
+    color: white;
+}
+div {
+    padding: 1%;
+}
+.banner {
+    background-color: #02729f;
+    padding: 6.5%;
+    margin-right: 2%;
+    text-align: center;
+    float: left;
+    width: 10%;
+    color: white;
+}
+.col-container {
+    display: inline-block;
+    width: 100%;
+}
+.column {
+    float: left;
+}
+.table {
+    background-color: #026288;
+    width: 100%;
+    color: white;
+    padding-left: 0%;
+    padding-bottom: 0%;
+}
+.t1 {
+    background-color: #013447;
+}
+.cheader {
+    background-color: #013447;
+    padding: 1%;
+}
+.sheader {
+    background-color: #013447;
+    padding: 1%;
+    width: 99%;
+}
+.rheader {
+    background-color: #013447;
+    padding: 1%;
+    width: 102%;
+}
+.bbox {
+    background-color: #d6d6da;
+    height: 3%;
+    padding: 50%;
+    padding-bottom: 80%;
+}
+.sbox {
+    background-color: #d6d6da;
+    padding: 24.5%;
+    padding-bottom: 59%;
+    width: 55%;
+}
+.lbox {
+    padding-top:100%;
+    padding-bottom: 100%;
+}
+.myFooter {
+    background-color: #026288;
+    padding: 10%;
+    text-align: center;
+    width: 78%;
+    color: white;
+}

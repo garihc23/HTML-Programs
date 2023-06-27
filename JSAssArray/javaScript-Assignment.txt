@@ -1,0 +1,19 @@
+Problems:
+
+1-: Create a function called doubleNumbers that takes in an array of numbers and returns a new array where every number is doubled. For example, given the array [2, 4, 6, 8], the function should return [4, 8, 12, 16].
+
+2-: Create a function called evenNumbers that takes in an array of numbers and returns a new array with only the even numbers. For example, given the array [1, 2, 3, 4, 5, 6], the function should return [2, 4, 6].
+
+3-: Create a function called sumNumbers that takes in an array of numbers and returns the sum of all the numbers in the array. For example, given the array [1, 2, 3, 4], the function should return 10.
+
+4-: Create a function called getNames that takes in an array of objects and returns an array of only the names of those objects. Each object has a name property. For example, given the array [{name: "Alice", age: 25}, {name: "Bob", age: 30}, {name: "Charlie", age: 35}], the function should return ["Alice", "Bob", "Charlie"].
+
+5-: Create a function called averageAge that takes in an array of objects and returns the average age of those objects. Each object has an age property. For example, given the array [{name: "Alice", age: 25}, {name: "Bob", age: 30}, {name: "Charlie", age: 35}], the function should return 30.
+
+Good luck!
+
+
+
+
+
+

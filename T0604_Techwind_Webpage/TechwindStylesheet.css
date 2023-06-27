@@ -1,0 +1,56 @@
+*{
+    box-sizing: border-box;
+    font-family:"Nunito", sans-serif !important;
+    
+}
+
+.navbar1{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    height: 200px !important;
+    width: 100vw;
+
+}
+.navitems1{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 2rem;
+    margin: 0 2rem;
+ 
+}
+.dropdown-menu{
+    margin-top: 0;
+}
+.bggrey{
+    background-color:#f9fafb;
+}
+.imgsec1{
+    height: 70vh;
+}
+.bg-indigo{
+background-color:#4f46e5;
+}
+.text-indigo .collapsebtn:active{
+ color: #4f46e5 !important;
+}
+.fs12{
+    font-size:14px;
+}
+.fs16{
+    font-size: 16px;
+}
+.carousel .carousel-item {
+    height: 200px;
+    width: 200px;
+  }
+.bg-image{
+    background-image: url('img/bg.jpg') !important;
+    height: 600px;
+    width: 100%;
+}
+.btn-6:active:hover{
+    background-color: #4f46e5;
+    color: white;
+}

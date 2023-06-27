@@ -1,0 +1,81 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: "Roboto","Sofia",sans-serif;
+}
+body{
+    margin: 0%;
+    color: white;
+    background-color: black;
+}
+.nav{
+    background-color: #213449;
+    display: flex;
+    width: 100vw;
+
+}
+.nav_list{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 2rem;
+    margin: 0 2rem;
+}
+.nav_list :hover{
+    color: aquamarine; 
+}
+.nav_listitem{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    padding: 1.5rem 1rem;
+    cursor: pointer;
+}
+
+.nav_listitem :hover > ul {
+    background-color: #213449;
+    display: flex; 
+    visibility: visible;
+    opacity: 1;
+}
+.nav_listitemdrop {
+    display: flex; 
+    background-color: #213449;
+    position: absolute;
+    width: 12rem;
+    padding: 1.5rem 0rem 1rem 0rem;
+    list-style: none;
+    color: white;
+    flex-direction: column;
+    gap: 0.5rem;
+    opacity: 0;
+    visibility: hidden;
+
+    transition:opacity 400ms ease-in-out;
+}
+.nav_listitemdrop:hover{
+    background-color: aquamarine;
+    transition:opacity 400ms ease-in-out;
+}
+.nav_listitemdrop>li{
+    display: flex;
+    list-style: none;
+    padding: 0.5rem 1rem;
+    color: white;
+}
+.drop_button{
+    color: #3c5d7b;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+    cursor: pointer;
+}
+.nav_listitemdrop2{
+    display: flex;
+    left:100%;
+    margin: 0;
+    
+}

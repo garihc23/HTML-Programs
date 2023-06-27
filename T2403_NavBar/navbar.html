@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.1/css/fontawesome.min.css">
+    </head>
+    <style>
+        * {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body{
+background-color: rgb(0, 0, 0);
+margin: 0%;
+color: white;
+}
+.nav{
+    background-color: #2e3f51;
+    display: flex;
+    
+    width: 100vw;
+    padding: 8px 5%;
+
+}
+.nav_list{
+display: flex;
+justify-content: flex-start;
+align-items: center;
+
+gap: 2rem;
+margin: 0 2rem;
+}
+.nav_list :hover{
+    color: aquamarine;
+}
+.nav_listitem{
+    display: flex;
+    flex-direction: column;
+    position:relative;
+    padding: 1.5rem 1rem;
+    cursor: pointer;
+}
+.nav_listitem :hover ul{
+display: flex; 
+visibility: visible;
+opacity: 1;
+}
+.nav_listitemdrop {
+    background-color: #2e3f51;
+    position: absolute;
+    top: 4rem;
+    width: 10rem;
+    padding: 1rem;
+    list-style: none;
+    color: white;
+    flex-direction: column;
+    gap: 0.5rem;
+    opacity: 0;
+    visibility: hidden;
+}
+.nav_listitemdrop :hover li{
+    list-style: none;
+    color: aquamarine;
+}
+.nav_listitemdrop>li{
+    list-style: none;
+    padding: 0.5rem 1rem;
+
+}
+
+a{
+    text-decoration: none;
+    color: white;
+    cursor: pointer;
+}
+    </style>
+    <body>
+            <div class="nav">
+                <ul class="nav_list">
+                    <li class="nav_listitem"><a href="#"><i class="fa-solid fa-house-chimney"></i> HOME</a></li>
+                    <li class="nav_listitem"><a href="#"><i class="fa-solid fa-user"></i>ABOUT
+                        <ul class="nav_listitemdrop">
+                            <li>TEXT</li>
+                            <li>TEXT</li>
+                            <li>TEXT</li>   
+                        </ul>
+                    </a></li>
+                    <li class="nav_listitem"><a href="#"><i class="fa-solid fa-briefcase"></i>CLIENTS
+                        <ul class="nav_listitemdrop">
+                            <li>TEXT</li>
+                            <li>TEXT</li>
+                            <li>TEXT</li>
+                            <li>TEXT</li>
+                        </ul>
+
+                    </a></li>
+                    <li class="nav_listitem"><a href="#"><i class="fa-solid fa-comment"></i>CONTACT US</a></li>
+                </ul>
+                
+            </div>
+
+    </body>
+</html>

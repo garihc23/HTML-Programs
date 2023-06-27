@@ -1,0 +1,98 @@
+*{
+    box-sizing: border-box;
+    font-family:"Nunito", sans-serif !important;
+    
+}
+body{
+  min-width: 250px;
+    
+}
+.header {
+    background-color: #3678f4;
+    padding: 30px 40px;
+    color: white;
+    text-align: center;
+  }
+input{
+    margin: 0;
+    border: none;
+    border-radius: 0;
+    width:85%;
+    padding: 10px;
+    float: left;
+    font-size: 16px;
+    font-weight: bolder;
+    
+
+}
+.buton{
+    width: 15%;
+    padding: 10px;
+    background: #d9d9d9;
+    font-weight: bolder;
+    color: #555;
+    float: left;
+    text-align: center;
+    font-size: 16px;
+    cursor: pointer;
+    transition: 0.3s;
+    border-radius: 0;
+}
+ul li{
+    
+    display: flex;
+    justify-content: space-between !important;
+    flex-wrap: wrap;
+    width: 100% !important;
+    margin-bottom: 1%;
+    cursor: pointer;
+    position: relative;
+    padding: 12px 8px 12px 40px;
+    list-style-type: none;
+    background: #eee;
+    font-size: 18px;
+    transition: 0.2s;
+
+      /* make the list items unselectable */
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+    
+}
+ /* Set all odd list items to a different color (zebra-stripes) */
+
+ul li:nth-child(odd) {
+    background: #f9f9f9d2;
+}
+/* Darker background-color on hover */
+ul li:hover {
+    background: #ddd;
+}
+  
+  /* When clicked on, add a background color and strike out text */
+ul li.checked {
+    background: #888;
+    color: #fff;
+    text-decoration: line-through ;
+}
+ 
+  
+.time-stamp{
+    padding:2px 5%;
+    background-color: #b5c3de;
+    border: solid 4px #bac6da;
+    text-align: center;
+}
+.delete{
+    background-color: inherit;
+    border: 0px;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    padding: 2px 2%;
+}
+.delete:hover{
+    background-color: #f44336;
+    color: white;
+}
